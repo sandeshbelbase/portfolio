@@ -11,15 +11,6 @@ ul{
 	background-color: #000;
 	width:100%;
 	float:left;
-	overflow-x: hidden;
-}
-
-/* d-flex align-items-center justify-content-between */
-.header .container > div {
-display: flex;
-align-items: center;
-justify-content: space-between;
-
 }
 
 .logo{
@@ -78,9 +69,6 @@ justify-content: space-between;
 	text-decoration: none;
 }
 
-
-/* responsive  */
-
 .main-wrap{
 	background: #1d1d1d;
 	background-repeat: no-repeat!important;
@@ -96,9 +84,6 @@ justify-content: space-between;
 }
 .intro{
 	margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .intro-content{
 	margin-top: 0px;
@@ -114,7 +99,12 @@ justify-content: space-between;
 }
 .intro-content .email{
 	margin-top: 50px;
-	color: #ffffff;
+	color: #4d4d4d;
+}
+.intro-content .email{
+	padding-right: 10px;
+	margin-top: 50px;;
+	color: #4d4d4d;
 }
 a:Visited, a:focus{
 	text-decoration: none !important;
@@ -145,11 +135,11 @@ a:focus{
 	font-size: 2.5rem;
 }
 
-.about p{
-	font-size: 24px;
+.about h4{
 	margin-top: 20px;
-	color: #4f4f4f;
-	text-align: left;
+	color: #000;
+	line-height: 25pt;
+	text-align: justify;
     text-justify: inter-word;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -214,7 +204,7 @@ a:focus{
   }
   
   .text {
-	background-color: #da0000;
+	background-color: #4CAF50;
 	color: white;
 	font-size: 16px;
 	padding: 16px 32px;
@@ -225,7 +215,7 @@ a:focus{
   }
 
 
-/* end of works images*/
+
 
 
 .blog-wrap h1{
@@ -264,8 +254,8 @@ a:focus{
     color: #fff;
     text-align: center;
     margin: 0px !important;
-    
-    padding: 10px;
+    height: 30px;
+    padding: 2px;
 }
 .footer p{
 	margin: 0px!important;
@@ -345,7 +335,7 @@ textarea {
   width: 50px;
 }
 
-form .email {
+.email {
 	float: right;
 	width: 45%;
 }
@@ -434,7 +424,6 @@ textarea {
 
 #form_button {
   background: none;
-  margin-top: 20px;
   border: solid 2px #474544;
   color: #474544;
   cursor: pointer;
@@ -450,31 +439,11 @@ textarea {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-	
 }
-
-
 
 #form_button:hover {
   background: #474544;
   color: #F2F3EB;
-}
-
-.email h4 {
-    font-size: 18px;
-    color: #d5d5d5;
-}
-
-input {
-    line-height: normal;
-}
-button, input, select, textarea {
-    color: #5A5A5A;
-    font: inherit;
-    margin: 0;
-}
-button, input {
-    overflow: visible;
 }
 
 @media screen and (max-width: 768px) {
@@ -517,49 +486,3 @@ button, input {
   }
 }	
 
-/* blog-wraper css */
-
-.blogger{
-	background-color: #000;
-	align-content: center;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.blog-content{
-	text-align: center;
-}
-.blogger #query {
-    
-    border: solid 1px #ddd !important;
-	border-radius: 10px;
-    font-size: 20px;
-	padding: 10px;
-    border: none;
-}
-    
-
-.blogger h1{
-	font-size: 48px;
-	color: #fff;
-}
-.blogger p{
-	font-size: 30px;
-}
-	
-.blogger #send {
-	border: solid 1px #ddd !important;
-	border-radius: 10px;
-    margin-left: 10px;
-    font-size: 20px;
-    border: none;
-	padding: 10px;
-
-}
-
-.blogger #send:hover{
-	background-color: #000;
-	color: #fff;
-}	

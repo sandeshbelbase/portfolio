@@ -1,0 +1,145 @@
+
+#navToggler{
+    color: #fff;
+    display: none;
+    font-size: 24px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+@media (max-width: 1200px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    #navToggler{
+        display: inline-block;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        position: fixed;
+        background-color: #1d1d1d;
+        height: 100vh;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        min-width: 150px;
+        padding-top: 30px;
+        text-align: left;
+        align-items: flex-start;
+        transition: all 0.3s ease-in;
+        transform: translateX(-300px);
+    }
+
+    .nav ul.active{
+        transform: translateX(0px);
+       transition: all 0.3s ease-in;
+    }
+
+    .blogger #query{
+        font-size: 24px;
+    }
+    .blogger #send{
+        font-size: 24px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 992px){
+    .intro-content h1{font-size: 36px;}
+    .email h4{font-size: 18px;color: #b6b6b6;}
+    .email h3{font-size: 16px;}
+}
+
+@media (max-width: 768px){  
+    .intro-content h1 {
+        font-size: 27px;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 8px;
+    
+    }
+
+    .intro-content .row {justify-content: center;}
+}
+
+
+@media (max-width: 575px){
+    .first-wrap{margin-bottom: 90px;}
+    
+}
+
+@media (max-width: 480px){
+    .cv button a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px){
+    
+    header{
+        overflow-x: hidden;
+    }
+    .cv button a{
+        font-size: 14px;
+    }
+
+    .sicons{
+        letter-spacing: 20px;
+    }
+    
+    .blogger h1{
+        font-size: 36px;
+    }
+    .blogger p{
+        font-size: 24px;
+    }
+    .blogger #query{
+        font-size: 18px;
+    }
+    .blogger #send{
+        font-size: 18px;
+    }
+}
+
+    @media (max-width: 390px){
+        .cv button a{
+            padding: 0px;
+            font-size: 12px;
+        }
+        .blogger h1{
+            font-size: 36px;
+        }
+        .blogger p{
+            font-size: 24px;
+        }
+        .blogger #query{
+            font-size: 18px;
+        }
+        .blogger #send{
+            font-size: 18px;
+        }
+    
+
+    }
+
+
+        @media (max-width: 480px){
+            .cv button a{
+                padding: 0px;
+                font-size: 12px;
+            }
+        }
+    
+
+
